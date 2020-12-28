@@ -22,11 +22,11 @@ Developed a port scanner using C++ to scan all the available open/closed network
   Since we are testing on a local machine, there were no ports open at the time. 
 So we started a server at port 80 using this command:
 
- → service apache2 start
+  → service apache2 start
  
 Now the port 80 is open and a server is running on this machine.
 Now to check whether this port is open or not we run our port scanner to check the available ports.
 
- → ./port_scanner 127.0.0.1 75 82
+   → ./port_scanner 127.0.0.1 75 82
  
 It is visible that the port 80 is open and all  other ports are closed.
